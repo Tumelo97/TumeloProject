@@ -1,0 +1,33 @@
+a{
+    font-size:1.6rem;
+    font-weight: 300;
+    color:var(--light-blue);
+    text-decoration: none;
+    margin-right:1rem;
+}
+a:hover{
+    color: yellow;
+
+}
+a.btn{
+    border:1px solid var(--color-red);
+    border-radius:5px;
+    font-weight:500;
+    padding: 5px 8px;
+    color: var(--color-black);
+    
+}
+a.btn:hover{
+    color: var(--light-blue);
+    
+}
+a .btn-dark{
+    border:2px solid var(--color-red);
+    background:transparent;
+
+}
+a.btn-orange{
+    border:2px solid var(--color-red);
+    background:orangered;
+    color:var(--color-white);
+}
